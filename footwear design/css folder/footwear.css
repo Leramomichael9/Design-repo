@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+   padding-left: 40px;
+   color: rgba(50, 48, 48, 0.701);
+   font-size: 20px;
+   font-family:fantasy;
+}
+.btn input{
+    padding: 6px;
+    width: 200px;
+    border-radius: 10px 10px;
+}
+.search-btn{
+    border: 2px solid  rgb(15, 196, 196);
+    background-color: rgb(15, 196, 196);
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    position: relative;
+    left: -35px;
+    border-radius:100px;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+    gap: 20px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: black; 
+    font-size: 18px;
+    padding-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bread-crumb{
+    background-color: rgb(15, 196, 196);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.background{
+    background-image: url(/images/footwear.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.676);
+    padding-top: 250px;
+}
+.bottom{
+    background-color: rgba(23, 22, 22, 0.294);
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    color: rgba(255, 255, 255, 0.763);
+    border: 2px solid rgba(12, 11, 11, 0.169);
+    margin-left: 590px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
